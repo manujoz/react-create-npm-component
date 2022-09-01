@@ -1,0 +1,30 @@
+{
+    "name": "react-create-npm-component",
+    "version": "1.0.0",
+    "description": "Change name property to you package name and put here your description",
+    "main": "build/index.js",
+    "types": "build/index.d.ts",
+    "scripts": {
+        "build": "rollup -c --environment NODE_ENV:production",
+        "start": "rollup -c -w"
+    },
+    "keywords": [
+        "react",
+        "swipeable-views"
+    ],
+    "author": "Manu Overa",
+    "license": "MIT",
+    "devDependencies": {
+        "@babel/cli": "^7.18.10",
+        "@babel/core": "^7.18.13",
+        "@babel/preset-env": "^7.18.10",
+        "@babel/preset-react": "^7.18.6",
+        "@rollup/plugin-babel": "^5.3.1",
+        "rollup": "^2.79.0",
+        "rollup-plugin-copy": "^3.4.0",
+        "rollup-plugin-terser": "^7.0.2"
+    },
+    "dependencies": {
+        "react-slider-views": "^1.0.1"
+    }
+}

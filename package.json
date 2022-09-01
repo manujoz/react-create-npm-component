@@ -1,12 +1,16 @@
 {
     "name": "react-create-npm-component",
     "version": "1.0.0",
-    "description": "Change name property to you package name and put here your description",
+    "description": "Change name property, the git repository and put here your description",
     "main": "build/index.js",
     "types": "build/index.d.ts",
     "scripts": {
         "build": "rollup -c --environment NODE_ENV:production",
         "start": "rollup -c -w"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/manujoz/react-create-npm-component.git"
     },
     "keywords": [
         "react",
